@@ -154,9 +154,7 @@
 
     widget_code += '</div>';
 
-    if(switcher_horizontal_position != 'inline')
-        widget_code = '<div class="gt_switcher_wrapper" style="position:fixed;'+switcher_vertical_position+':0;'+switcher_horizontal_position+':8%;z-index:999999;">' + widget_code + '</div>';
-
+    
     var add_css = document.createElement('style');
     add_css.classList.add('gtranslate_css');
     add_css.textContent = widget_css;
